@@ -1,5 +1,19 @@
 # @zag-js/toggle-group
 
+## 2.0.0-next.4
+
+### Patch Changes
+
+- [`d8de206`](https://github.com/chakra-ui/zag/commit/d8de2068c05b62d6d9fbaa0f350fe3153b1b9c9a) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - - Fix focus jumping back into the group when tabbing out right
+  after an arrow, Home or End key.
+- Updated dependencies []:
+  - @zag-js/anatomy@2.0.0-next.4
+  - @zag-js/core@2.0.0-next.4
+  - @zag-js/types@2.0.0-next.4
+  - @zag-js/utils@2.0.0-next.4
+  - @zag-js/dom-query@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ## 1.47.0

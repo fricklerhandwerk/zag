@@ -1,5 +1,26 @@
 # @zag-js/navigation-menu
 
+## 2.0.0-next.4
+
+### Patch Changes
+
+- [#3342](https://github.com/chakra-ui/zag/pull/3342)
+  [`730ea29`](https://github.com/chakra-ui/zag/commit/730ea29dd3fff5005687020bc73d9f75962e2b5c) Thanks
+  [@github-actions](https://github.com/apps/github-actions)! - - Cancel pending focus, scroll and sync frames when the
+  machine stops, and let a newer request replace a pending one.
+
+- [#3576](https://github.com/chakra-ui/zag/pull/3576)
+  [`b768ab6`](https://github.com/chakra-ui/zag/commit/b768ab6b482397279c8b53e608c79a4ee6c06478) Thanks
+  [@segunadebayo](https://github.com/segunadebayo)! - - Fix focus not returning to the trigger on Escape when the
+  framework unmounts the content synchronously.
+- Updated dependencies [[`cb8e73d`](https://github.com/chakra-ui/zag/commit/cb8e73dce228eb9eafb768e3e744fe35e9dac7f9)]:
+  - @zag-js/dismissable@2.0.0-next.4
+  - @zag-js/anatomy@2.0.0-next.4
+  - @zag-js/core@2.0.0-next.4
+  - @zag-js/types@2.0.0-next.4
+  - @zag-js/utils@2.0.0-next.4
+  - @zag-js/dom-query@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ### Patch Changes

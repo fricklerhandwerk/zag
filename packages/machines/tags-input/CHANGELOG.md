@@ -1,5 +1,37 @@
 # @zag-js/tags-input
 
+## 2.0.0-next.4
+
+### Minor Changes
+
+- [#3342](https://github.com/chakra-ui/zag/pull/3342)
+  [`16a3883`](https://github.com/chakra-ui/zag/commit/16a38838e1530ec8992d2aabb506bc48c16d32fe) Thanks
+  [@github-actions](https://github.com/apps/github-actions)! - - Added `api.highlightedValue` to read the value of the
+  highlighted tag.
+
+  ```tsx
+  const api = tagsInput.connect(service, normalizeProps)
+  api.highlightedValue // "React" | null
+  ```
+
+  - Fixed `onHighlightChange` reporting the tag's DOM id as `highlightedValue` instead of the tag's value.
+
+### Patch Changes
+
+- [#3342](https://github.com/chakra-ui/zag/pull/3342)
+  [`730ea29`](https://github.com/chakra-ui/zag/commit/730ea29dd3fff5005687020bc73d9f75962e2b5c) Thanks
+  [@github-actions](https://github.com/apps/github-actions)! - - Cancel pending focus, scroll and sync frames when the
+  machine stops, and let a newer request replace a pending one.
+- Updated dependencies [[`cb8e73d`](https://github.com/chakra-ui/zag/commit/cb8e73dce228eb9eafb768e3e744fe35e9dac7f9)]:
+  - @zag-js/interact-outside@2.0.0-next.4
+  - @zag-js/anatomy@2.0.0-next.4
+  - @zag-js/core@2.0.0-next.4
+  - @zag-js/types@2.0.0-next.4
+  - @zag-js/auto-resize@2.0.0-next.4
+  - @zag-js/utils@2.0.0-next.4
+  - @zag-js/dom-query@2.0.0-next.4
+  - @zag-js/live-region@2.0.0-next.4
+
 ## 2.0.0-next.3
 
 ### Patch Changes
